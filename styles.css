@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background-color: rgb(245, 245, 245);
+  padding: 2em;
+  max-width: 1200px;
+  width: 96%;
+  z-index: 1;
+  position: absolute;
+  margin: 4em auto;
+  left: 50%;
+  transform: translate(-50%);
+}
+.bg-img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
